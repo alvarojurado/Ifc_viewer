@@ -57,7 +57,7 @@ mainToolbar.addChild(
 )
 viewer.ui.addToolbar(mainToolbar)
 
-window.addEventListener("Event",async(event: any) => {
+window.addEventListener("evento404",async(event: any) => {
   const {name, payLoad} = event.detail;
   if (name === "openModel") {
     const {name, buffer} = payLoad;
